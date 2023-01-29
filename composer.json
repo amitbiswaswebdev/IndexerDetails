@@ -26,6 +26,7 @@
             "role": "Magento 2 Extension Developer"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "files": [
             "registration.php"

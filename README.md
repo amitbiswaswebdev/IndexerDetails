@@ -16,7 +16,7 @@ It extends the functionality of Index management and gives admin user ability to
 ## Installation
 Please follow the instruction:
 
-- Run `composer require easy-mage/indexer-detail`
+- Run `composer require easy-mage/indexer-details`
 - Run `bin/magento setup:upgrade`
 
 ## Usage
