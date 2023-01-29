@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2023 Easy. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * @author    Amit Biswas <amit.biswas.webdev@gmail.com>
+ * @copyright 2023 Easy
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Easy\IndexerDetails\Logger\Handler">
+       <arguments>
+           <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+       </arguments>
+   </type>
+   <type name="Easy\IndexerDetails\Logger\Logger">
+       <arguments>
+           <argument name="name" xsi:type="string">indexer_details</argument>
+           <argument name="handlers"  xsi:type="array">
+               <item name="system" xsi:type="object">Easy\IndexerDetails\Logger\Handler</item>
+           </argument>
+       </arguments>
+   </type>
+</config>

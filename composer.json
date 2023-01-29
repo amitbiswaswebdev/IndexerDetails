@@ -1,0 +1,21 @@
+{
+    "name": "easy/indexer-details",
+    "version": "1.0.0",
+    "description": "Check which products are in backlogs",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~7.4.0||^8",
+        "magento/framework": "102.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Easy\\IndexerDetails\\": ""
+        }
+    }
+}
