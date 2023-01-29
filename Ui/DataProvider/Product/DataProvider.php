@@ -1,16 +1,16 @@
 <?php
 /**
- * Copyright © 2023 Easy. All rights reserved.
+ * Copyright © 2023 EasyMage. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdev@gmail.com>
- * @copyright 2023 Easy
+ * @copyright 2023 EasyMage
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 declare(strict_types=1);
 
-namespace Easy\IndexerDetails\Ui\DataProvider\Product;
+namespace EasyMage\IndexerDetails\Ui\DataProvider\Product;
 
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 use Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider as CoreProductDataProvider;
@@ -21,7 +21,7 @@ use Magento\Ui\DataProvider\AddFilterToCollectionInterface;
 use Magento\Ui\DataProvider\Modifier\PoolInterface;
 use Magento\Backend\Model\Session;
 use Magento\Indexer\Model\IndexerFactory;
-use Easy\IndexerDetails\Logger\Logger as IndexerDetailsLogger;
+use EasyMage\IndexerDetails\Logger\Logger as IndexerDetailsLogger;
 use InvalidArgumentException;
 
 /**

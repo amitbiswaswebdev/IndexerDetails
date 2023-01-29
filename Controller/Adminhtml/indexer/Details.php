@@ -1,16 +1,16 @@
 <?php
 /**
- * Copyright © 2023 Easy. All rights reserved.
+ * Copyright © 2023 EasyMage. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdev@gmail.com>
- * @copyright 2023 Easy
+ * @copyright 2023 EasyMage
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 declare(strict_types=1);
 
-namespace Easy\IndexerDetails\Controller\Adminhtml\indexer;
+namespace EasyMage\IndexerDetails\Controller\Adminhtml\indexer;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Action\HttpGetActionInterface;
@@ -20,7 +20,7 @@ use Magento\Framework\Controller\Result\RedirectFactory;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Indexer\Controller\Adminhtml\Indexer;
 use Magento\Backend\Model\Session;
-use Easy\IndexerDetails\Ui\DataProvider\Product\DataProvider;
+use EasyMage\IndexerDetails\Ui\DataProvider\Product\DataProvider;
 
 /**
  * @ClassName Details

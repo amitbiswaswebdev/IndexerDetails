@@ -1,21 +1,37 @@
 {
-    "name": "easy/indexer-details",
+    "name": "easy-mage/indexer-details",
     "version": "1.0.0",
     "description": "Check which products are in backlogs",
+    "keywords": [
+        "magento 2",
+        "magento",
+        "index",
+        "details",
+        "backlog",
+        "products"
+    ],
     "type": "magento2-module",
     "license": [
-        "MIT"
+        "OSL-3.0",
+        "AFL-3.0"
     ],
     "require": {
         "php": "~7.4.0||^8",
         "magento/framework": "102.0.*"
     },
+    "authors": [
+        {
+            "name": "Amit Biswas",
+            "email": "amit.biswas.webdev@gmail.com",
+            "role": "Magento 2 Extension Developer"
+        }
+    ],
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Easy\\IndexerDetails\\": ""
+            "EasyMage\\IndexerDetails\\": ""
         }
     }
 }
