@@ -16,7 +16,7 @@ It extends the functionality of Index management and gives admin user ability to
 ## Installation
 Please follow the instruction:
 
-- Run `composer require easy/indexer-detail`
+- Run `composer require easy-mage/indexer-detail`
 - Run `bin/magento setup:upgrade`
 
 ## Usage
@@ -24,7 +24,7 @@ Module depends on Magento_Indexer and Magento_Catalog.
 It extends the functionality of Index management and gives admin user ability to view products that needs indexing.
 
 ## Uninstall
-Run the following command `bin/magento module:uninstall Easy_IndexerDetails`
+Run the following command `bin/magento module:uninstall EasyMage_IndexerDetails`
 
 ## Authors
 [Amit Biswas](amit.biswas.webdev@gmail.com)
